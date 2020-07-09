@@ -8,6 +8,7 @@ import {
   NavItem,
   NavLink,
   UncontrolledDropdown,
+  NavbarText
 } from "reactstrap";
 import { Link } from "react-router-dom";
 import logoWhite from "../images/logoWhiteCropped.png";
@@ -18,13 +19,13 @@ const RSNav = () => {
   const toggle = () => setIsOpen(!isOpen);
 
   return (
-    <div className='container'>
+    <div>
       <Navbar light expand="md" className='text-white' style={{backgroundColor: 'black'}}>
         <Link to="/">
           <img src={logoWhite} width="32px" className="mr-2" alt="logo"></img>
         </Link>
         <Link to="/">
-          <NavbarBrand href="https://www.marketexamine.com/">
+          <NavbarBrand href="https://www.spacefollow.com/">
             SPACEFOLLOW
           </NavbarBrand>
         </Link>
@@ -63,6 +64,9 @@ const RSNav = () => {
             </NavItem>
             <UncontrolledDropdown nav inNavbar></UncontrolledDropdown>
           </Nav>
+          <NavbarText>
+            Welcome, Explorer
+          </NavbarText>
         </Collapse>
       </Navbar>
     </div>
