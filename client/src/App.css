@@ -1,0 +1,46 @@
+@font-face {
+  font-family: Poppins-Bold;
+  src: url('./fonts/Poppins-Bold.ttf');
+}
+
+@font-face {
+  font-family: Poppins-Medium;
+  src: url('./fonts/Poppins-Medium.ttf');
+}
+
+@font-face {
+  font-family: Poppins-Light;
+  src: url('./fonts/Poppins-Light.ttf');
+}
+
+
+body { 
+  background: url('./images/earth.png') no-repeat center center fixed; 
+  background-color: black;
+  -webkit-background-size: cover;
+  -moz-background-size: cover;
+  -o-background-size: cover;
+  background-size: cover;
+  font-family: Poppins-Light !important;
+}
+
+.nav-link{
+  color: white !important;
+  font-family: Poppins-Medium;
+}
+
+.navbar-brand{
+  color: white !important;
+  font-family: Poppins-Bold;
+}
+
+.navbar-light .navbar-text {
+  color: white !important;
+  font-family: Poppins-Medium;
+}
+
+.navbar-toggler-icon {
+  color: white !important;
+}
+
+
