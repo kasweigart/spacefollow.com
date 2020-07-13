@@ -43,4 +43,9 @@ body {
   color: white !important;
 }
 
+.leaflet-container {
+  
+  height: 100vh;
+}
+
 

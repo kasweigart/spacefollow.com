@@ -4,7 +4,8 @@ import { Jumbotron, Button } from "reactstrap";
 const Home = (props) => {
   return (
     <div className="container mt-5">
-      <Jumbotron style={{ backgroundColor: "rgb(248,249,250,0.85)" }}>
+      <Jumbotron style={{ backgroundColor: "rgb(248,249,250,0.75)" }}>
+      <div className='justify-content-center'>
         <h1 className="display-3">Welcome to SpaceFollow</h1>
         <p className="lead">
           This is a simple hero unit, a simple Jumbotron-style component for
@@ -18,6 +19,7 @@ const Home = (props) => {
         <p className="lead">
           <Button color="primary">Learn More</Button>
         </p>
+        </div>
       </Jumbotron>
     </div>
   );

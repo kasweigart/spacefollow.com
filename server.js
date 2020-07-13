@@ -8,6 +8,12 @@ app.use(express.json());
 
 app.use(express.urlencoded({ extended: true }));
 
+const imagesRouter = require("./routes/images");
+app.use("/images", imagesRouter);
+
+const intoTheVoidRouter = require("./routes/intoTheVoid");
+app.use("/into-the-void", intoTheVoidRouter);
+
 app.use(express.static(path.join(__dirname, "client/build")));
 
 app.get("*", (req, res) => {
