@@ -80,6 +80,7 @@ function IntoTheVoid() {
       console.log(dataArr);
       setObjects(dataArr);
     }
+    return setDataLoaded(false)
   }, [dataLoaded]);
 
   return (

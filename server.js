@@ -8,6 +8,9 @@ app.use(express.json());
 
 app.use(express.urlencoded({ extended: true }));
 
+const marsRouter = require("./routes/mars");
+app.use("/mars", marsRouter);
+
 const imagesRouter = require("./routes/images");
 app.use("/images", imagesRouter);
 
