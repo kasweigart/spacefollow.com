@@ -111,7 +111,7 @@ const Images = (props) => {
         <img src={apodHdUrl} alt="" className="img-fluid mb-3" />
         <p>{apodExplanation}</p>
       </Jumbotron>
-      <div className="d-flex justify-content-center mt-5">
+      {/* <div className="d-flex justify-content-center mt-5">
         <Carousel activeIndex={activeIndex} next={next} previous={previous}>
           <CarouselIndicators
             items={items}
@@ -161,7 +161,7 @@ const Images = (props) => {
             <PaginationLink last href="#" />
           </PaginationItem>
         </Pagination>
-      </div>
+      </div> */}
     </div>
   );
 };
