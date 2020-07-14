@@ -74,7 +74,7 @@ const Contact = (props) => {
               placeholder="Message"
             />
           </FormGroup>
-          <Button type="Submit" color="dark" onClick={toggle} >
+          <Button type="Submit" color="dark" onClick={toggle} className='mt-2'>
             Submit
           </Button>
           <Modal isOpen={modal} toggle={toggle} className={className}>

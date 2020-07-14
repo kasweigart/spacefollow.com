@@ -69,14 +69,14 @@ function Mars() {
         </h4>
         {message}
         <div>
-          <p>Earth Date:</p>
+          <p className='mt-3'>Earth Date:</p>
           <DatePicker
             selected={date}
             onChange={(dt) => setDate(dt)}
             className="mb-3"
           />
         </div>
-        <Button className="mt-4 mb-4" color="dark" onClick={handleSubmit}>
+        <Button className="mt-2 mb-4" color="dark" onClick={handleSubmit}>
           Search
         </Button>
         <h5>

@@ -1,25 +1,22 @@
 import React from "react";
 import { Jumbotron, Button } from "reactstrap";
 
-const Home = (props) => {
+const Home = () => {
   return (
     <div className="container mt-5">
       <Jumbotron style={{ backgroundColor: "rgb(248,249,250,0.75)" }}>
-      <div className='justify-content-center'>
-        <h1 className="display-3">Welcome to SpaceFollow</h1>
-        <p className="lead">
-          This is a simple hero unit, a simple Jumbotron-style component for
-          calling extra attention to featured content or information.
-        </p>
-        <hr className="my-2" />
-        <p>
-          It uses utility classes for typography and spacing to space content
-          out within the larger container.
-        </p>
-        <p className="lead">
-          <Button color="primary">Learn More</Button>
-        </p>
-        </div>
+        
+          <h1 className="display-3 justify-content-center d-flex">
+            Welcome to SpaceFollow
+          </h1>
+          <h2 className="text-center">
+            An organized platform for space exploration topics and data.
+          </h2>
+          <hr className="text-center" />
+          <h3 className='text-center'>
+            Explore the tabs above to learn more!
+          </h3>
+        
       </Jumbotron>
     </div>
   );
