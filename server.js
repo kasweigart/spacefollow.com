@@ -17,6 +17,9 @@ app.use("/images", imagesRouter);
 const intoTheVoidRouter = require("./routes/intoTheVoid");
 app.use("/into-the-void", intoTheVoidRouter);
 
+const contactRouter = require("./routes/contact");
+app.use("/contact", contactRouter);
+
 app.use(express.static(path.join(__dirname, "client/build")));
 
 app.get("*", (req, res) => {
