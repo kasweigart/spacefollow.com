@@ -6,7 +6,7 @@ const Home = () => {
   return (
     <div className="container mt-5">
       <Jumbotron style={{ backgroundColor: "rgb(248,249,250,0.75)" }}>
-        <h1 className="display-3 justify-content-center d-flex">
+        <h1 className="text-center">
           Welcome to SpaceFollow
         </h1>
         <h2 className="text-center">
