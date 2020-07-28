@@ -1,4 +1,4 @@
 module.exports = {
-    APIKEY: '5d3c2b908fcd372d35c7f1821e8c39c5-7fba8a4e-b9972133', 
+    APIKEY: 'key-fe64b935d247f2cce7edaf8fc7e032fb', 
     DOMAIN: 'mg.spacefollow.com'
 }
